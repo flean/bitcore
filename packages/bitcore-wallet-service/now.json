@@ -1,0 +1,9 @@
+{
+	"version":1,
+	"name":"cc-bws-server",
+	"public": true,
+	"env":
+		{
+			"BWS_PORT":"3232"
+		}
+}

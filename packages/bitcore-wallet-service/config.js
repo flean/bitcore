@@ -9,7 +9,7 @@ var config = {
   // Uncomment to set the number or process (will use the nr of availalbe CPUs by default)
   // clusterInstances: 4,
 
-  // https: true,
+  https: true,
   // privateKeyFile: 'private.pem',
   // certificateFile: 'cert.pem',
   ////// The following is only for certs which are not
@@ -21,7 +21,7 @@ var config = {
 
   storageOpts: {
     mongoDb: {
-      uri: 'mongodb://localhost:27017/bws',
+      uri: "mongodb://ccvend:pvjXGly4b6rlwJU5@cluster0-shard-00-00-7ps7h.mongodb.net:27017,cluster0-shard-00-01-7ps7h.mongodb.net:27017,cluster0-shard-00-02-7ps7h.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
     },
   },
   messageBrokerOpts: {
@@ -56,7 +56,7 @@ var config = {
     defaultUnit: 'btc',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
-    authorizationKey: 'You_have_to_put_something_here',
+    authorizationKey: 'AAAAp4TjRfI:APA91bGb4md_KMni2MKC8pm2qLhh6M421Sur_mseMa3RmGauMOpHPF_BOn1nmuTpnrw6Mb1WBsj8ZSELZ4JnefaexmL8N1r9OaU3-2mu3aWl401uavr9xZjUzGJQZHNqlPGeLAsHqmDt',
   },
   fiatRateServiceOpts: {
     defaultProvider: 'BitPay',
